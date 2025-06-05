@@ -28,14 +28,6 @@ O projeto está organizado nas seguintes classes e pacotes:
 
 ## ▶️ Como Rodar o Projeto
 
-1.  **Clone o Repositório:**
-    ```bash
-    
-    ```
-2.  **Abra em uma IDE:** Importe o projeto em sua IDE Java favorita (IntelliJ IDEA, Eclipse, NetBeans).
-3.  **Adicione a Dependência SQLite JDBC:**
-    * **Maven/Gradle:** Se estiver usando, adicione a dependência `org.xerial:sqlite-jdbc` ao seu `pom.xml` ou `build.gradle`.
-    * **Manual (para IDEs):** Baixe o JAR do driver SQLite JDBC (você pode encontrar a versão mais recente em [MVNRepository - SQLite JDBC](https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc)) e adicione-o ao `classpath` do seu projeto.
-4.  **Execute a Classe Principal:** Execute a classe `DetectorGolpePix.java`.
+...
 
 O sistema iniciará com uma janela de diálogo para entrada de informações.
