@@ -45,7 +45,9 @@ O projeto está organizado nas seguintes classes e pacotes:
 
 ## Diagrama de Classe do Projeto
 
-...
+<div align="center">
+<img src="https://i.ibb.co/WNsNYWwx/Captura-de-tela-2025-06-10-192908.png" width="600">
+</div>
 
 ---
 
