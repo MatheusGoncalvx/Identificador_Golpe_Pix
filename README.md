@@ -53,7 +53,19 @@ O projeto está organizado nas seguintes classes e pacotes:
 
 ## Diagrama de Caso de Uso
 
+<div align="center">
+<img src="#" width="600">
+</div>
+
 ...
+
+---
+
+## Modelo de Entidade e Relacionamento (MER)
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/5d8611ac-563e-448f-bf95-eee486de10ad" width="600">
+</div>
 
 ---
 
