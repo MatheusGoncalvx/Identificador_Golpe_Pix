@@ -43,7 +43,7 @@ O projeto está organizado nas seguintes classes e pacotes:
 
 ---
 
-## Diagrama de Classe do Projeto
+## Diagrama de Classe
 
 <div align="center">
 <img src="https://i.ibb.co/WNsNYWwx/Captura-de-tela-2025-06-10-192908.png" width="600">
@@ -54,10 +54,8 @@ O projeto está organizado nas seguintes classes e pacotes:
 ## Diagrama de Caso de Uso
 
 <div align="center">
-<img src="#" width="600">
+<img src="https://i.ibb.co/Q3gL84HB/Whats-App-Image-2025-06-13-at-21-08-42.jpg" width="600">
 </div>
-
-...
 
 ---
 
