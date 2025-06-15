@@ -4,14 +4,29 @@ Este é um projeto Java que simula um sistema antifraude para detectar possívei
 
 ---
 
-## 🚀 Funcionalidades
+## 🚀 Requisitos Funcionais
 
-* **Entrada de Dados de Transação:** O usuário pode informar o remetente, valor e a mensagem de uma transação Pix.
-* **Detecção de Golpes:** Análise da mensagem da transação para identificar padrões que podem indicar um golpe (ex: "presente", "frete", "pagamento").
-* **Confirmação de Pagamento:** Após a detecção de um possível golpe, o sistema pergunta se o usuário efetuou o pagamento.
-* **Alerta e Coleta de Dados da Vítima:** Se o golpe for confirmado e o pagamento realizado, o sistema exibe um alerta e coleta informações da vítima (nome, CPF, banco).
-* **Registro de Vítimas:** As informações das vítimas são armazenadas em um banco de dados SQLite local.
-* **Boletim de Ocorrência Online:** Oferece a opção de abrir o link da Delegacia Eletrônica da Polícia Civil de SP para registro de boletim de ocorrência.
+| Identificador | Requisito Funcional               | Descrição                                                                                                                                              |
+|---------------|-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| RF01          | Informar Dados de Transação       | O usuário pode informar o remetente, valor e a mensagem de uma transação Pix                                                                           |
+| RF02          | Detectar Golpes                   | Análise da mensagem de transação para identificar padrões que podem indicar um golpe (ex.: "presente", "frete", "pagamento")                           |
+| RF03          | Confirmar Pagamento               | Após a detecção de um possível golpe, o sistema pergunta se o usuário efetuou o pagamento                                                              |
+| RF04          | Coletar Dados da Vítima           | Se o golpe for confirmado e o pagamento realizado, o sistema exibe um alerta e coleta informações da vítima (nome, CPF, banco)                         |
+| RF05          | Registrar Vítimas                 | As informações das vítimas são armazenadas em um banco de dados SQLite local                                                                           |
+| RF06          | Realizar Boletim de Ocorrência    | Oferece a opção de abrir o link da Delegacia Eletrônica da Polícia Civil de SP para registro de boletim de ocorrência                                  |
+
+---
+
+## Requisitos NÃO Funcionais
+
+| Identificador | Requisito Não Funcional         | Descrição                                                                                                                                                           |
+|---------------|----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| RNF01         | Usabilidade                     | Interface amigável com telas claras e objetivas; fluxo intuitivo com validação em tempo real e mensagens informativas (ex.: "valor inválido", "dados obrigatórios") |
+| RNF02         | Segurança                       | Criptografia de dados sensíveis (CPF, nome, transações); registro de auditoria com logs legíveis e timestamp                                                        |
+| RNF03         | Confiabilidade & Resiliência    | Persistência segura usando transações em banco de dados (ex.: SQLite) para evitar inconsistências                                                                  |
+| RNF04         | Desempenho                      | Interações básicas devem responder em menos de 200 ms em média durante navegação comum                                                                              |
+| RNF05         | Manutenção & Evolução           | Cobertura de testes automatizados (> 80%) para regras de detecção de fraudes e persistência de dados                                                              |
+| RNF06         | Privacidade & Conformidade      | Armazenar apenas dados sensíveis estritamente necessários, com aviso ao usuário                                                                                     |
 
 ---
 
