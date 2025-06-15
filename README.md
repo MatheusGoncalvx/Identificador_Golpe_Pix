@@ -17,7 +17,7 @@ Este é um projeto Java que simula um sistema antifraude para detectar possívei
 
 ## 🛠️ Tecnologias Utilizadas
 
-* **Java**
+* **Java 21**
 * **SQLite JDBC:** Para conexão e manipulação do banco de dados SQLite.
 
 ---
@@ -39,7 +39,24 @@ O projeto está organizado nas seguintes classes e pacotes:
 
 ## ▶️ Como Rodar o Projeto
 
-...
+1. Ter as ferramentas listadas instaladas no seu computador:
+   - **IDE Java**
+     - Utilizada no projeto: **NetBeans**
+   - **Banco de dados**
+     - Utilizado no projeto: **DB Browser for SQLite**
+
+2. Baixar e descompactar o projeto deste repositório para seu computador.
+
+3. Garantir que esteja instalado no projeto o driver `mysql-connector-j-####.jar` para conexão com o banco de dados.
+
+4. Garantir que a biblioteca `sqlite-jdbc` esteja instalada.
+
+5. A versão do JDK Java deve estar atualizada.
+
+6. Garantir que a base de dados seja importada automaticamente; caso não tenha sido, importar manualmente.
+
+7. Executar o projeto.
+
 
 ---
 
